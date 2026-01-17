@@ -24,7 +24,7 @@ OpenCode의 멀티 에이전트 시스템을 활용하여 구성된 **독립 리
 |----------|------|------|
 | **@research-lead** | Chief Architect | 연구 설계, 가설 수립, 전체 오케스트레이션 |
 | **@research-librarian** | PhD Specialist | 논문 검색, 수학적 증명 |
-| **@research-data-engineer** | Lead Data Engineer | 데이터 수집/정제, Point-in-Time 보장 |
+| **@research-data-engineer** | Lead Data Engineer | 정형,비정형 데이터 수집/정제, Point-in-Time 보장 |
 | **@research-coder** | Lead Financial Engineer | 전략 구현, 백테스팅 엔진 |
 | **@research-analyst** | Chief Risk Officer | 통계 검증, 전략 기각 권한 (Finding Gate) |
 
