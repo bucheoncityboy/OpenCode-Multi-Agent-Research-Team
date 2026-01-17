@@ -143,7 +143,7 @@ graph LR
     C -->|No| E[자동 피봇]
     E --> B
     D --> F{BLOCKING GATE 통과?}
-    F -->|Yes| G[✅ 실전 배포]
+    F -->|Yes| G[✅ 실전 배포 준비]
     F -->|No| H[❌ 기각 또는 수정]
     H --> B
 ```
