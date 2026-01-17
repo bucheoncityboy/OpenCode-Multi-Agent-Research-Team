@@ -35,8 +35,8 @@ OpenCode의 멀티 에이전트 시스템을 활용하여 구성된 **독립 리
 ### 1. 저장소 클론
 
 ```bash
-git clone https://github.com/your-username/opencode-research-team.git
-cd opencode-research-team
+git clone https://github.com/bucheoncityboy/OpenCode-Multi-Agent-Research-Team.git
+cd OpenCode-Multi-Agent-Research-Team
 ```
 
 ### 2. 설치 스크립트 실행
