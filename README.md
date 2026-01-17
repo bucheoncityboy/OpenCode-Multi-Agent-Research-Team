@@ -190,16 +190,6 @@ opencode-research-team/
 
 ---
 
-## 📈 성과 예시
-
-| 전략 | Sharpe (OOS) | MDD | Trade Count |
-|------|--------------|-----|-------------|
-| Sentiment & Funding | 4.04 | -2.74% | 153 |
-| Whale Momentum | 3.77 | -2.40% | 151 |
-| News Breakout | 9.35 | -1.53% | 183 |
-
----
-
 ## 📜 라이선스
 
 MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
