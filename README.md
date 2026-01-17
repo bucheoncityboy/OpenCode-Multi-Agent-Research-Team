@@ -163,15 +163,9 @@ opencode-research-team/
 │   ├── AGENTS.md                # 일반 모드 규칙
 │   └── RESEARCH_TEAM.md         # 리서치 팀 매뉴얼
 ├── scripts/
-│   ├── install.ps1              # Windows 설치 스크립트
-│   └── install.sh               # Linux/macOS 설치 스크립트
-└── examples/
-    └── pj1/                     # 예시 프로젝트
-        ├── FINAL_REPORT.md
-        ├── research_queue.md
-        └── 01_Sentiment_Funding/
-            ├── strategy.py
-            └── STRATEGY_REPORT.md
+   ├── install.ps1              # Windows 설치 스크립트
+   └── install.sh               # Linux/macOS 설치 스크립트
+
 ```
 
 ---
