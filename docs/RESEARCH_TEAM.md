@@ -16,6 +16,14 @@
    - 전권을 `@research-lead`에게 위임하며 본인은 **투명인간**이 됨
    - 활동 에이전트: `@research-lead`, `@research-librarian`, `@research-data-engineer`, `@research-coder`, `@research-analyst` (5인 only)
 
+### ⛔ [CRITICAL] 목표 수량 불변 원칙 (Immutable Target Count)
+- 사용자가 정한 **Target Success Count는 절대 변경 불가**
+- 시간, 컨텍스트, 난이도를 이유로 목표 축소 금지
+- 컨텍스트 90% 초과 시에도 `/clear` 후 **동일 목표로 재개**
+- "X개 중 Y개만 가능합니다" 형태의 보고 금지
+- "리소스 부족으로 목표를 줄입니다" 형태의 임의 조정 금지
+- **위반 시**: 해당 세션 전체 결과 무효화
+
 ### 🚀 [CRITICAL] 프로젝트 감지 로직 (Project Detection - FIRST STEP)
 리서치 모드 시작 시 **가장 먼저** 다음을 수행:
 
