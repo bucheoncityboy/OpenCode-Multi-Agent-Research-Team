@@ -165,6 +165,13 @@ project/
 ├── backtest/
 ├── analysis/
 ├── reports/
+project/
+├── data/
+├── features/
+├── models/
+├── backtest/
+├── analysis/
+├── reports/
 ├── research/           <-- Research Mode Base
 │   └── results/        <-- Automated Results
 │       └── YYYYMMDD_HHMMSS/
@@ -174,6 +181,7 @@ project/
 │           │   └── STRATEGY_REPORT.md
 │           └── Strategy_B/
 └── tests/
+
 ```
 
 ---
@@ -343,3 +351,7 @@ Research Mode는 **오직 다음 조건에서만** 활성화된다:
    - 전권을 `@research-lead`에게 위임하며 본인은 **투명인간**이 됨
    - 활동 에이전트: `@research-lead`, `@research-librarian`, `@research-data-engineer`, `@research-coder`, `@research-analyst` (5인 only)
 2. **In Normal Mode**: 위 5명의 리서치 전용 에이전트(`@research-*`)는 **절대 개입 엄금**. 특히 `@research-coder`와 일반 Coder 혼동 금지.
+
+
+
+
