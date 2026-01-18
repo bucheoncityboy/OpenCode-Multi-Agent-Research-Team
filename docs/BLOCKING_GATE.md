@@ -87,7 +87,7 @@
 - [ ] Embargo 적용
 - [ ] Monte Carlo p < 0.05
 - [ ] B&H 대비 IR > 0
-- [ ] 거래비용 (Maker 2bp, Taker 5bp)
+- [ ] 거래비용 (슬리피지 3bps + 거래비용 4bps = 왕복 14bps)
 - [ ] N > 30
 
 ---
