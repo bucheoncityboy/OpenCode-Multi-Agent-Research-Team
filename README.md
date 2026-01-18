@@ -200,6 +200,8 @@ opencode-research-team/
 ├── docs/
 │   ├── AGENTS.md                # 일반 모드 규칙
 │   ├── RESEARCH_TEAM.md         # 리서치 팀 매뉴얼
+│   ├── DATA_SOURCES.md          # 데이터 수집 소스 상세
+│   ├── QUANT_TEMPLATES.md       # 에이전트 코드 템플릿 상세 
 │   └── BLOCKING_GATE.md         # 검증 기준 상세
 ├── scripts/
 │   ├── install.ps1              # Windows 설치 스크립트
