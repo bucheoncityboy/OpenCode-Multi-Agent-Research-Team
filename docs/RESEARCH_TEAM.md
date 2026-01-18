@@ -57,12 +57,15 @@
 - 예상치 못한 이슈 발생 시
 
 #### 📝 [PROGRESS DUMP] 필수 포함 내용
-1. **Original Request (최초 의뢰)**: 유저가 요청한 목표, Target Success Count, 제약 조건
-2. **Plan (수립된 계획)**: 어떤 계획을 세웠는지, 우선순위, 예상 일정
-3. **Process Log (진행 과정)**: 시각별 수행 내용 테이블, 성공/실패 기록, 가설 검증 히스토리
-4. **Current Status (현재 상태)**: 마지막 업데이트 시각, 현재 단계, 진행 중인 가설, Context Usage, 핵심 변수값
-5. **Interrupt Point (중단 지점)**: 중단 여부, 시각, 사유, 마지막 성공 지점, 복구 명령어
-6. **Next Plan (향후 계획)**: 즉시 수행 예정 작업, 예상 이슈, 대안 계획
+1. **User Command History (명령어 및 조건 히스토리)**: 유저가 입력한 모든 명령어와 요청 조건을 시간순으로 기록. 세션 중단 시에도 맥락 유지를 위해 필수.
+   - 명령어: `/rt mine crypto 30`, `continue queue` 등
+   - 조건: KPI 기준(예: Sharpe ≥ 0.5), 제약사항(예: Long-only), 특별 요구사항(예: 특정 자산 제외) 등
+2. **Original Request (최초 의뢰)**: 유저가 요청한 목표, Target Success Count, 제약 조건
+3. **Plan (수립된 계획)**: 어떤 계획을 세웠는지, 우선순위, 예상 일정
+4. **Process Log (진행 과정)**: 시각별 수행 내용 테이블, 성공/실패 기록, 가설 검증 히스토리
+5. **Current Status (현재 상태)**: 마지막 업데이트 시각, 현재 단계, 진행 중인 가설, Context Usage, 핵심 변수값
+6. **Interrupt Point (중단 지점)**: 중단 여부, 시각, 사유, 마지막 성공 지점, 복구 명령어
+7. **Next Plan (향후 계획)**: 즉시 수행 예정 작업, 예상 이슈, 대안 계획
 
 ### 1-1. 핵심 멤버 (Core Members)
 - **Research Lead (Sisyphus)**:
